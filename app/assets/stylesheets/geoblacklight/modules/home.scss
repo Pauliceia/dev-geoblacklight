@@ -1,25 +1,111 @@
 [data-map="home"] {
-  height: 400px;
+  height: 330px;
+  box-shadow: 0px 0px 30px #999;
+  position: absolute;
+  margin: -21px 0 0 0 !important;
+  width: 100%;
+  left: 0;
 }
 
 .home-search-area {
-  
-  h2,
-  h3 {
+  height: 330px;
+  position: absolute;
+  margin: -21px 0 0 0 !important;
+  width: 100%;
+  background: rgba(0,0,0,0.25);
+  padding-top: 50px !important;
+  z-index: 999;
+  left: 0;
+
+  h2 {
+    padding-bottom: 15px;
     text-align: center;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px #fff;
   }
   
   .input-group.search-input-group {
     width: 100%;
-  }
+  }  
 }
 
+.category-home {
+  position: relative !important;
+  margin-top: 300px;
+}
+
+.title-category-home {
+  color: #304A73;
+  font-weight: 600;
+  font-size: 2.4em;
+  padding: 10px 25px;
+  border-left: 3px solid #304A73;
+  border-right: 3px solid #304A73;
+  margin-top: 40px !important;
+}
 .category-block {
-  @extend .col-md-6;
+  @extend .col-md-4;
   @extend .text-center;
-  min-height: 240px;
+  margin-top: 25px;
   
   .category-icon {
     font-size: 6em;
+  }
+}
+
+.project {
+  .box{
+    padding: 20px;
+
+    .sub-box{
+      padding: 15px 0 0 0;
+
+      h1{
+        margin-top: 5px;
+        padding-left: 15px;
+        width: 40%;
+        float: left;
+        color: #ccc;
+        text-shadow: 0px 0px 2px #aaa;
+      }
+  
+      .icon {
+        width: 60%;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        float: left;
+        text-align: right;
+        color: rgba(255,255,255,0.15);
+        font-size: 4.5em;
+        transition: 0.6s;
+      }
+      .icon:hover {
+        font-size: 5em;
+        transition: 0.6s;
+        padding-bottom: 4px;
+      }
+
+      a {
+        width: 100%;
+        clear: both;
+        display: block;
+        background: rgba(255,255,255,0.15);
+        font-weight: 400;
+        text-align: center;
+        padding: 3px;
+        color: #fff;
+        text-decoration: none;
+      }
+      a:hover {
+        background: rgba(255,255,255,0.25);
+      }
+    }
+    
+  }
+}
+
+@media (max-width: 991px){
+  .category-home {
+    margin-top: 340px;
   }
 }

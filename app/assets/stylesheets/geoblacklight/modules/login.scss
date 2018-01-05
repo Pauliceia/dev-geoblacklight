@@ -1,0 +1,52 @@
+.new_user {
+    width: 50%;
+    display: block;
+    margin: 15px 15px !important;
+
+    label {
+        text-transform: uppercase;
+        padding: 15px 0 0 5px;
+    }
+    input {
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+
+    label[for='user_remember_me']{
+        color: #999;
+        text-transform: none;
+        padding: 8px 0;
+    }
+    input[type='checkbox']{
+        width: 16px !important;
+    }
+
+    input[type='submit']{
+        width: auto;
+        display: block;
+        padding: 10px 25px;
+        margin: 10px 0 15px 0 !important;
+        border-radius: 10px;
+        background: #5cb85c;
+        color: #fff;
+        font-weight: 600;
+        border: 2px solid #5cb85c;
+    }
+    input[type='submit']:hover{
+        background: #449d44;
+        border: 2px solid #409640;
+    }
+
+}
+
+a[href='/users/password/new']{
+    display: none !important;
+}
+
+@media(max-width:778px){
+    .new_user{
+        width: 90%;
+        margin: 10px 5% !important;
+    }
+}

@@ -2,3 +2,12 @@
   overflow:scroll;
   max-height: 450px;
 }
+
+.alert {
+  width: 50% !important;
+  position: absolute !important;
+  z-index: 1005;
+  top: 0px;
+  left: 25%;
+}
+

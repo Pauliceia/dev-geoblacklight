@@ -8,7 +8,7 @@ en:
       error: 'Sorry, the requested file could not be downloaded'
       error_with_url: 'Sorry, the requested file could not be downloaded, try downloading it directly from: %{link}'
     home:
-      headline: 'Explore and discover...'
+      headline: 'Explore São Paulo city ...'
       search_heading: 'Find the maps and data you need'
       category_heading: 'Find by...'
       map_heading: 'Find by location'
