@@ -1,4 +1,4 @@
-# Instance Pauliceia - Geoblacklight
+# Pauliceia Instance - Geoblacklight
 
 ### Prerequisites
 1. [Install ruby on rails](https://gorails.com/setup/ubuntu/16.04)
@@ -7,7 +7,7 @@
 ### RUN
 ```
 git clone 
-cd dev-geoblacklight
+cd dev-geoblacklight https://github.com/Pauliceia/dev-geoblacklight.git
 
 bundler install
 rake geoblacklight:server
