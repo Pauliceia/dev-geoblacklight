@@ -6,8 +6,8 @@
 
 ### RUN
 ```
-git clone 
-cd dev-geoblacklight https://github.com/Pauliceia/dev-geoblacklight.git
+git clone https://github.com/Pauliceia/dev-geoblacklight.git
+cd dev-geoblacklight
 
 bundler install
 rake geoblacklight:server
